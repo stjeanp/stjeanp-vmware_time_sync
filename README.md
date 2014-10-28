@@ -15,7 +15,7 @@
 
 ##Overview
 
-This module implements a custom fact, vmware_tools_timesync, which it uses to determine whether or not to run the command to turn the VMware tools time synchronization on or off, based on the argument supplied. Currently it works on any OS that sets $::osfamily to RedHat, Debian, or Suse.
+This module implements a custom fact, vmware_tools_timesync, which it uses to determine whether or not to run the command to turn the VMware tools time synchronization on or off, based on the argument supplied.
 
 ##Module Description
 
