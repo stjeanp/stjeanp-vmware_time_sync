@@ -1,0 +1,78 @@
+{
+  "name": "stjeanp-vmware_time_sync",
+  "version": "0.3.0"
+  "author": "Patrick St. Jean",
+  "summary": "Disables (default) or enables VMware tools time sync.",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/stjeanp/stjeanp-vmware_time_sync",
+  "project_page": "https://github.com/stjeanp/stjeanp-vmware_time_sync",
+  "issues_url": "https://github.com/stjeanp/stjeanp-vmware_time_sync/issues",
+  "tags": [
+    "vmware-toolbox-cmd",
+    "timesync"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OpenSuSE",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}

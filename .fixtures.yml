@@ -1,0 +1,4 @@
+fixtures:
+  symlinks:
+    vmware_time_sync: "#{source_dir}"
+    stdlib: "#{source_dir}/../stdlib"
