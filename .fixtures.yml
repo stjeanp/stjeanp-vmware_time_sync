@@ -1,4 +1,5 @@
 fixtures:
   symlinks:
     vmware_time_sync: "#{source_dir}"
-    stdlib: "#{source_dir}/../stdlib"
+  repositories:
+    stdlib: "git://github.com/puppetlabs/puppetlabs-stdlib"

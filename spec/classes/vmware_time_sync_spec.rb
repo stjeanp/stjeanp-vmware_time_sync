@@ -4,7 +4,7 @@ require 'spec_helper'
 describe 'vmware_time_sync', :type => :class do
   context 'Enable on something not a VMware VM' do
     let(:params) { {:enable_sync => true} }
-    let(:facts) { {:virtual => ''} }
+    let(:facts) { {:virtual => '', :vmware_tools_timesync => 'disabled'} }
 
     it do
       expect {
@@ -15,7 +15,7 @@ describe 'vmware_time_sync', :type => :class do
 
   context 'Disable on something not a VMware VM' do
     let(:params) { {:enable_sync => false} }
-    let(:facts) { {:virtual => ''} }
+    let(:facts) { {:virtual => '', :vmware_tools_timesync => 'disabled'} }
 
     it do
       expect {
