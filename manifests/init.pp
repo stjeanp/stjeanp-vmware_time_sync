@@ -6,7 +6,7 @@
 #
 # Actions:
 #
-# Requires: see Modulefile
+# Requires: see README.md
 #
 # Sample Usage:
 #
