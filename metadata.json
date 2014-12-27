@@ -3,8 +3,8 @@
   "version": "0.3.2",
   "author": "Patrick St. Jean",
   "summary": "Disables (default) or enables VMware tools time sync.",
-  "license": "Apache License, Version 2.0",
-  "source": "git://github.com/stjeanp/stjeanp-vmware_time_sync",
+  "license": "Apache-2.0",
+  "source": "git://github.com/stjeanp/stjeanp-vmware_time_sync.git",
   "project_page": "https://github.com/stjeanp/stjeanp-vmware_time_sync",
   "issues_url": "https://github.com/stjeanp/stjeanp-vmware_time_sync/issues",
   "tags": [
@@ -72,7 +72,7 @@
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_range": ">= 1.0.0"
+      "version_requirement": ">= 1.0.0"
     }
   ]
 }
